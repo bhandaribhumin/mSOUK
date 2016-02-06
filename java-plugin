@@ -11,3 +11,5 @@ MSISDN – Mobile Number
 Message – SMS message details
 
 Refer to imi mobile specification attached herein
+
+cordova plugin add cordova-plugin-sim
