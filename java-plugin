@@ -1,0 +1,13 @@
+Send SMS – using imimobile.com
+Route
+http://api-openhouse.imimobile.com/smsmessaging/1/outbound/tel%3A%2BOPNHSE/requests
+
+Method
+POST
+
+Input Parameters
+KEY – to be provided separately.
+MSISDN – Mobile Number
+Message – SMS message details
+
+Refer to imi mobile specification attached herein
