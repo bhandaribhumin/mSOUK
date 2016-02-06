@@ -1,2 +1,6 @@
 https://github.com/Telerik-Verified-Plugins/SMS
 
+For get Mobile Information Cordova JAVA plugin
+https://github.com/pbakondy/cordova-plugin-sim
+
+
