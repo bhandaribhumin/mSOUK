@@ -1,3 +1,30 @@
+Get user information
+add plugin npm 
+
+cordova plugin add cordova-plugin-sim
+
+<script type="text/javascript" charset="utf-8">
+       
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+      alert('Device ready');
+  window.plugins.sim.getSimInfo(successCallback, errorCallback);
+}
+
+function successCallback(result) {
+    alert('result Success');
+     alert(JSON.stringify(result));
+  console.log(result);
+}
+
+function errorCallback(error) {
+    alert('result error');
+     alert(JSON.stringify(result));
+  console.log(error);
+}
+</script>
+
+
 Send SMS – using imimobile.com
 Route
 http://api-openhouse.imimobile.com/smsmessaging/1/outbound/tel%3A%2BOPNHSE/requests
